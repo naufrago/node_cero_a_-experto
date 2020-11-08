@@ -5,6 +5,9 @@ const argv = require('yargs')
             alias: 'd'
         }
     })
+    .command('listar', 'lista las tareas', {
+
+    })
     .command('actualizar', 'actualizar el estado de la tarea', {
         descripcion: {
             demand: true,
@@ -13,6 +16,12 @@ const argv = require('yargs')
         completado: {
             alias: 'c',
             default: true
+        }
+    })
+    .command('borrar', 'borra una tarea', {
+        descripcion: {
+            demand: true,
+            alias: 'd'
         }
     })
     .help()
