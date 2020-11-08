@@ -1,0 +1,15 @@
+{
+  "name": "04-porhacer",
+  "version": "1.0.0",
+  "description": "ejemplo 4 de curso de 0 a experto en node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^16.1.0"
+  }
+}
